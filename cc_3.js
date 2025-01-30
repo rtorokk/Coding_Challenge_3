@@ -29,8 +29,19 @@ console.log("Updated Employee:", employee); // print object
 
 let feedback = [
     { customerName: "John", feedbackText: "Great service", rating: 4 },
-    { customerName: "Jane", feedbackText: "Excellent experience", rating: 5 }
+    { customerName: "Jane", feedbackText: "Excellent experience", rating: 5 },
     { customerName: "Joe", feedbackText: "Poor quality", rating: 2 }
 ]; // array of feedback objects
 feedback.push({ customerName: "Jack", feedbackText: "Average service", rating: 3 }); // add new feedback
 console.log("Updated Feedback:", feedback); // print array
+
+// Task 5 - Inventory Management System
+
+let inventory = {
+    itemName: "Laptop",
+    stockCount: 100,
+    price: 500
+}; // object with inventory details
+calculateTotalValue = inventory.stockCount * 500; // calculate total value
+console.log("Updated Inventory:", inventory); // print object
+console.log("Total Inventory Value:", calculateTotalValue); // print total value   
