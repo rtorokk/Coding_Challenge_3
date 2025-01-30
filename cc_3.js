@@ -12,3 +12,15 @@ orders [2] += 5; // add 5 to the third element
 let calculateTotal = orders.reduce((total, order) => total + order, 0); // calculate total
 console.log("Updated Orders:", orders); // print array
 console.log("Total Orders:", calculateTotal); // print total
+
+// Task 3 - Employee Performance Tracking
+
+let employee = {
+    name: "John",
+    role: "Developer",
+    performanceScore: 5,
+    isActive: true
+}; // object with employee details
+employee.performanceScore = 8; // update performance score
+employee.promotionEligible = true; // add new property
+console.log("Updated Employee:", employee); // print object
